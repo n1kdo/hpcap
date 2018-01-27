@@ -24,6 +24,12 @@ but disk space is cheap and my time is precious -- so there!)
 just forwarded the 'scope's output to the printer, this program actually
 captures the bitmap.  Yee-haw.
 
+EXAMPLES
+--------
+
+![tds210 example](tds210.gif)
+![hp8921a example](hp8921a.gif)
+
 LATEST VERSION
 --------------
 
