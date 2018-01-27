@@ -33,9 +33,7 @@ EXAMPLES
 LATEST VERSION
 --------------
 
-This software has not yet been released, so the latest version is only
-available from the author.  Contact Jeff at otterson@yahoo.com for the
-latest sources.
+I am going to keep the latest version on GitHub
 
 WARRANTY
 --------
@@ -49,11 +47,13 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA
 
 USAGE
 ------
+```
         Optional parameters are :
 		 -t input tty           default /dev/ttyS0
 		 -l lpr command         default lpr -r %s, does nothing!
 		 -v print version and exit
 		 -h this help screen
+```
 
 NOTES
 -----
@@ -65,6 +65,7 @@ box's serial input per the HP documentation.  You can use a regular RJ-11 connec
 
   For the TDS210, set it up like this:
 
+```
   Utility->Options->Hard Copy Setup
     Layout: either LANDSCAPE or PORTRAIT.
     Format: LaserJet
@@ -75,10 +76,11 @@ box's serial input per the HP documentation.  You can use a regular RJ-11 connec
     Flow Control: Hard Flagging
     EOL String:   CR
     Parity:       None
-
+```
 
   Serial Cable Wiring:
 
+```
    9 Pin Female                   9 Pin Female
 
   2 Receive Data <-------------> 3 Transmit Data
@@ -90,7 +92,7 @@ box's serial input per the HP documentation.  You can use a regular RJ-11 connec
   4 Data Terminal Ready <-+  +-> 6 Data Set Ready
   6 Data Set Ready <------+  +-> 4 Data Terminal Ready
   9 Ring Indicator (N/C)   (N/C) 9 Ring Indicator
-
+```
 
   For some reason, the TDS210 takes a minute or two to dump the hardcopy.
 I don't know why, but don't start looking for something wrong for two or
